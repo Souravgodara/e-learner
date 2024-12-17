@@ -1,4 +1,8 @@
+import CTA from '@/components/CTA'
+import FeatureCards from '@/components/FeatureCard'
 import Navbar from '@/components/Navbar'
+import PremiumLearningCard from '@/components/PremiumCard'
+import TestimonialsSection from '@/components/Testimonial'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import { FaPlayCircle } from 'react-icons/fa'
@@ -31,6 +35,11 @@ export default function page() {
             Watch Demo
           </Button>
         </div>
+        <FeatureCards />
+        <PremiumLearningCard />
+        <TestimonialsSection />
+        <CTA />
+
       </main>
     </>
   )

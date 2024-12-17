@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '@/components/ui/button'
+import { ThemeToggle } from './ThemeToogle'
 
 export default function Navbar() {
   return (
@@ -8,6 +9,7 @@ export default function Navbar() {
         E<span className='font-sans text-primary'>Learner</span>
       </div>
       <div className='flex gap-4'>
+        <ThemeToggle />
         <Button className='text-base' size={'lg'} variant={'ghost'}>
           Sign Up
         </Button>
