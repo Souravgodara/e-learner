@@ -18,7 +18,7 @@ export default function FeatureCards() {
                 <FeatureCard
                     icon={<Users className="w-8 h-8 text-blue-900" />}
                     title="Group Learning"
-                    description="A place vai socialxin a computer or mobile"
+                    description="Learn with your collegues"
                 />
             </div>
         </div>

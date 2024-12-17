@@ -10,7 +10,7 @@ export default function PremiumLearningCard() {
                 <div className="grid lg:grid-cols-2 gap-8">
 
                     <div className="space-y-6">
-                        <div className="space-y-2">
+                        <div className="space-y-4">
                             <h1 className="text-4xl font-semibold text-slate-800 ">
                                 Premium Learning Experience
                             </h1>
@@ -41,11 +41,11 @@ export default function PremiumLearningCard() {
                     </div>
 
                     {/* Right Section - Features */}
-                    <div className="space-y-8">
+                    <div className="space-y-8 mt-4">
                         <FeatureItem
                             icon={<BookOpen className="h-6 w-6 text-blue-900" />}
                             title="Online courses from experts"
-                            description="Learn from industry leaders and experts with our comprehensive online courses. Gain the skills and knowledge you need to succeed in your field."
+                            description="Learn from industry leaders and experts with our comprehensive online courses."
                         />
                         <FeatureItem
                             icon={<Library className="h-6 w-6 text-blue-900" />}
@@ -55,7 +55,7 @@ export default function PremiumLearningCard() {
                         <FeatureItem
                             icon={<Video className="h-6 w-6 text-blue-900" />}
                             title="Occasional video update"
-                            description="Stay updated with occasional video content that provides fresh insights and keeps you engaged with the latest trends and information in your chosen field."
+                            description="Stay updated with occasional video content that provides fresh insights and keeps you engaged with the latest trends."
                         />
                     </div>
                 </div>

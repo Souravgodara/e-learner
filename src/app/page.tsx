@@ -1,7 +1,10 @@
 import CTA from '@/components/CTA'
 import FeatureCards from '@/components/FeatureCard'
+import FeaturedCourses from '@/components/FeaturedCourses'
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import PremiumLearningCard from '@/components/PremiumCard'
+import TeamSection from '@/components/TeamMember'
 import TestimonialsSection from '@/components/Testimonial'
 import { Button } from '@/components/ui/button'
 import React from 'react'
@@ -36,10 +39,12 @@ export default function page() {
           </Button>
         </div>
         <FeatureCards />
+        <TeamSection/>
         <PremiumLearningCard />
+        <FeaturedCourses/>
         <TestimonialsSection />
         <CTA />
-
+<Footer/>
       </main>
     </>
   )
